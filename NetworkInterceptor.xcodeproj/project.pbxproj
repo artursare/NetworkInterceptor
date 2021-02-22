@@ -7,36 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1C19A2A9216A0D140041F5BE /* URLRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C19A2A8216A0D140041F5BE /* URLRequestFactory.swift */; };
-		1C2E2F2820F4783C003CFD58 /* NetworkInterceptorConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E2F2720F4783C003CFD58 /* NetworkInterceptorConfig.swift */; };
-		1C36592F2129CE1D0040A19B /* AnyHttpRequestEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C36592E2129CE1D0040A19B /* AnyHttpRequestEvaluator.swift */; };
 		1C831DBC20B9A3AE003648C6 /* NetworkInterceptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C831DBA20B9A3AE003648C6 /* NetworkInterceptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1C831DC620B9A420003648C6 /* NetworkInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C831DC520B9A420003648C6 /* NetworkInterceptor.swift */; };
-		1C831DC920B9A706003648C6 /* NetworkRequestInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C831DC820B9A706003648C6 /* NetworkRequestInterceptor.swift */; };
-		1CAD80CC21328D5600CA2160 /* DomainHttpRequestEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAD80CB21328D5600CA2160 /* DomainHttpRequestEvaluator.swift */; };
-		1CAD80D02132947500CA2160 /* NetworkRequestRedirectHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAD80CF2132947500CA2160 /* NetworkRequestRedirectHandler.swift */; };
-		1CAD80D221329B7100CA2160 /* NetworkRedirectUrlProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAD80D121329B7100CA2160 /* NetworkRedirectUrlProtocol.swift */; };
-		1CAD80D521329BE900CA2160 /* NetworkRequestSniffableUrlProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAD80D421329BE900CA2160 /* NetworkRequestSniffableUrlProtocol.swift */; };
-		1CAD80D82132A7DC00CA2160 /* AlternateDomainRequestRedirector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAD80D72132A7DC00CA2160 /* AlternateDomainRequestRedirector.swift */; };
-		1CAD80DA2133042400CA2160 /* AlternateUrlRequestRedirector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAD80D92133042400CA2160 /* AlternateUrlRequestRedirector.swift */; };
+		841466C925E40A1900691AAF /* NetworkRequestInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841466B825E40A1900691AAF /* NetworkRequestInterceptor.swift */; };
+		841466CA25E40A1900691AAF /* NetworkInterceptorConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841466B925E40A1900691AAF /* NetworkInterceptorConfig.swift */; };
+		841466CB25E40A1900691AAF /* NetworkRequestRedirectHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841466BA25E40A1900691AAF /* NetworkRequestRedirectHandler.swift */; };
+		841466CC25E40A1900691AAF /* DomainHttpRequestEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841466BC25E40A1900691AAF /* DomainHttpRequestEvaluator.swift */; };
+		841466CD25E40A1900691AAF /* AnyHttpRequestEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841466BD25E40A1900691AAF /* AnyHttpRequestEvaluator.swift */; };
+		841466CE25E40A1900691AAF /* NetworkInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841466BE25E40A1900691AAF /* NetworkInterceptor.swift */; };
+		841466D025E40A1900691AAF /* AlternateUrlRequestRedirector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841466C125E40A1900691AAF /* AlternateUrlRequestRedirector.swift */; };
+		841466D125E40A1900691AAF /* AlternateDomainRequestRedirector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841466C225E40A1900691AAF /* AlternateDomainRequestRedirector.swift */; };
+		841466D225E40A1900691AAF /* URLRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841466C425E40A1900691AAF /* URLRequestFactory.swift */; };
+		841466D325E40A1900691AAF /* NetworkRedirectUrlProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841466C625E40A1900691AAF /* NetworkRedirectUrlProtocol.swift */; };
+		841466D425E40A1900691AAF /* NetworkRequestSniffableUrlProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841466C725E40A1900691AAF /* NetworkRequestSniffableUrlProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1C19A2A8216A0D140041F5BE /* URLRequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRequestFactory.swift; sourceTree = "<group>"; };
-		1C2E2F2720F4783C003CFD58 /* NetworkInterceptorConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkInterceptorConfig.swift; sourceTree = "<group>"; };
-		1C36592E2129CE1D0040A19B /* AnyHttpRequestEvaluator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyHttpRequestEvaluator.swift; sourceTree = "<group>"; };
 		1C3659302129D26A0040A19B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1C831DB720B9A3AE003648C6 /* NetworkInterceptor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NetworkInterceptor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C831DBA20B9A3AE003648C6 /* NetworkInterceptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkInterceptor.h; sourceTree = "<group>"; };
 		1C831DBB20B9A3AE003648C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1C831DC520B9A420003648C6 /* NetworkInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkInterceptor.swift; sourceTree = "<group>"; };
-		1C831DC820B9A706003648C6 /* NetworkRequestInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequestInterceptor.swift; sourceTree = "<group>"; };
-		1CAD80CB21328D5600CA2160 /* DomainHttpRequestEvaluator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainHttpRequestEvaluator.swift; sourceTree = "<group>"; };
-		1CAD80CF2132947500CA2160 /* NetworkRequestRedirectHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequestRedirectHandler.swift; sourceTree = "<group>"; };
-		1CAD80D121329B7100CA2160 /* NetworkRedirectUrlProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRedirectUrlProtocol.swift; sourceTree = "<group>"; };
-		1CAD80D421329BE900CA2160 /* NetworkRequestSniffableUrlProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequestSniffableUrlProtocol.swift; sourceTree = "<group>"; };
-		1CAD80D72132A7DC00CA2160 /* AlternateDomainRequestRedirector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlternateDomainRequestRedirector.swift; sourceTree = "<group>"; };
-		1CAD80D92133042400CA2160 /* AlternateUrlRequestRedirector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlternateUrlRequestRedirector.swift; sourceTree = "<group>"; };
+		841466B825E40A1900691AAF /* NetworkRequestInterceptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRequestInterceptor.swift; sourceTree = "<group>"; };
+		841466B925E40A1900691AAF /* NetworkInterceptorConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkInterceptorConfig.swift; sourceTree = "<group>"; };
+		841466BA25E40A1900691AAF /* NetworkRequestRedirectHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRequestRedirectHandler.swift; sourceTree = "<group>"; };
+		841466BC25E40A1900691AAF /* DomainHttpRequestEvaluator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DomainHttpRequestEvaluator.swift; sourceTree = "<group>"; };
+		841466BD25E40A1900691AAF /* AnyHttpRequestEvaluator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyHttpRequestEvaluator.swift; sourceTree = "<group>"; };
+		841466BE25E40A1900691AAF /* NetworkInterceptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkInterceptor.swift; sourceTree = "<group>"; };
+		841466C125E40A1900691AAF /* AlternateUrlRequestRedirector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlternateUrlRequestRedirector.swift; sourceTree = "<group>"; };
+		841466C225E40A1900691AAF /* AlternateDomainRequestRedirector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlternateDomainRequestRedirector.swift; sourceTree = "<group>"; };
+		841466C425E40A1900691AAF /* URLRequestFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLRequestFactory.swift; sourceTree = "<group>"; };
+		841466C625E40A1900691AAF /* NetworkRedirectUrlProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRedirectUrlProtocol.swift; sourceTree = "<group>"; };
+		841466C725E40A1900691AAF /* NetworkRequestSniffableUrlProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRequestSniffableUrlProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,14 +50,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1C19A2A7216A0CEF0041F5BE /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				1C19A2A8216A0D140041F5BE /* URLRequestFactory.swift */,
-			);
-			path = Helpers;
-			sourceTree = "<group>";
-		};
 		1C831DAD20B9A3AE003648C6 = {
 			isa = PBXGroup;
 			children = (
@@ -78,53 +70,54 @@
 		1C831DB920B9A3AE003648C6 /* NetworkInterceptor */ = {
 			isa = PBXGroup;
 			children = (
-				1C831DC220B9A3C8003648C6 /* Source */,
+				841466BE25E40A1900691AAF /* NetworkInterceptor.swift */,
+				841466B925E40A1900691AAF /* NetworkInterceptorConfig.swift */,
+				841466B825E40A1900691AAF /* NetworkRequestInterceptor.swift */,
+				841466BA25E40A1900691AAF /* NetworkRequestRedirectHandler.swift */,
+				841466BB25E40A1900691AAF /* RequestEvaluator */,
+				841466C025E40A1900691AAF /* RequestRedirector */,
+				841466C525E40A1900691AAF /* URLProtocol */,
+				841466C325E40A1900691AAF /* Helpers */,
 				1C831DBA20B9A3AE003648C6 /* NetworkInterceptor.h */,
 				1C831DBB20B9A3AE003648C6 /* Info.plist */,
 			);
-			path = NetworkInterceptor;
+			name = NetworkInterceptor;
+			path = Sources/NetworkInterceptor;
 			sourceTree = "<group>";
 		};
-		1C831DC220B9A3C8003648C6 /* Source */ = {
+		841466BB25E40A1900691AAF /* RequestEvaluator */ = {
 			isa = PBXGroup;
 			children = (
-				1C831DC520B9A420003648C6 /* NetworkInterceptor.swift */,
-				1C2E2F2720F4783C003CFD58 /* NetworkInterceptorConfig.swift */,
-				1C831DC820B9A706003648C6 /* NetworkRequestInterceptor.swift */,
-				1CAD80CF2132947500CA2160 /* NetworkRequestRedirectHandler.swift */,
-				1CAD80D321329BCA00CA2160 /* URLProtocol */,
-				1C831DC720B9A6DF003648C6 /* RequestEvaluator */,
-				1CAD80D62132A7C600CA2160 /* RequestRedirector */,
-				1C19A2A7216A0CEF0041F5BE /* Helpers */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
-		1C831DC720B9A6DF003648C6 /* RequestEvaluator */ = {
-			isa = PBXGroup;
-			children = (
-				1C36592E2129CE1D0040A19B /* AnyHttpRequestEvaluator.swift */,
-				1CAD80CB21328D5600CA2160 /* DomainHttpRequestEvaluator.swift */,
+				841466BC25E40A1900691AAF /* DomainHttpRequestEvaluator.swift */,
+				841466BD25E40A1900691AAF /* AnyHttpRequestEvaluator.swift */,
 			);
 			path = RequestEvaluator;
 			sourceTree = "<group>";
 		};
-		1CAD80D321329BCA00CA2160 /* URLProtocol */ = {
+		841466C025E40A1900691AAF /* RequestRedirector */ = {
 			isa = PBXGroup;
 			children = (
-				1CAD80D421329BE900CA2160 /* NetworkRequestSniffableUrlProtocol.swift */,
-				1CAD80D121329B7100CA2160 /* NetworkRedirectUrlProtocol.swift */,
-			);
-			path = URLProtocol;
-			sourceTree = "<group>";
-		};
-		1CAD80D62132A7C600CA2160 /* RequestRedirector */ = {
-			isa = PBXGroup;
-			children = (
-				1CAD80D72132A7DC00CA2160 /* AlternateDomainRequestRedirector.swift */,
-				1CAD80D92133042400CA2160 /* AlternateUrlRequestRedirector.swift */,
+				841466C125E40A1900691AAF /* AlternateUrlRequestRedirector.swift */,
+				841466C225E40A1900691AAF /* AlternateDomainRequestRedirector.swift */,
 			);
 			path = RequestRedirector;
+			sourceTree = "<group>";
+		};
+		841466C325E40A1900691AAF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				841466C425E40A1900691AAF /* URLRequestFactory.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		841466C525E40A1900691AAF /* URLProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				841466C625E40A1900691AAF /* NetworkRedirectUrlProtocol.swift */,
+				841466C725E40A1900691AAF /* NetworkRequestSniffableUrlProtocol.swift */,
+			);
+			path = URLProtocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,17 +200,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C831DC620B9A420003648C6 /* NetworkInterceptor.swift in Sources */,
-				1C36592F2129CE1D0040A19B /* AnyHttpRequestEvaluator.swift in Sources */,
-				1CAD80D02132947500CA2160 /* NetworkRequestRedirectHandler.swift in Sources */,
-				1C19A2A9216A0D140041F5BE /* URLRequestFactory.swift in Sources */,
-				1CAD80DA2133042400CA2160 /* AlternateUrlRequestRedirector.swift in Sources */,
-				1C2E2F2820F4783C003CFD58 /* NetworkInterceptorConfig.swift in Sources */,
-				1CAD80D521329BE900CA2160 /* NetworkRequestSniffableUrlProtocol.swift in Sources */,
-				1C831DC920B9A706003648C6 /* NetworkRequestInterceptor.swift in Sources */,
-				1CAD80D221329B7100CA2160 /* NetworkRedirectUrlProtocol.swift in Sources */,
-				1CAD80D82132A7DC00CA2160 /* AlternateDomainRequestRedirector.swift in Sources */,
-				1CAD80CC21328D5600CA2160 /* DomainHttpRequestEvaluator.swift in Sources */,
+				841466D325E40A1900691AAF /* NetworkRedirectUrlProtocol.swift in Sources */,
+				841466CB25E40A1900691AAF /* NetworkRequestRedirectHandler.swift in Sources */,
+				841466D425E40A1900691AAF /* NetworkRequestSniffableUrlProtocol.swift in Sources */,
+				841466D025E40A1900691AAF /* AlternateUrlRequestRedirector.swift in Sources */,
+				841466CA25E40A1900691AAF /* NetworkInterceptorConfig.swift in Sources */,
+				841466CE25E40A1900691AAF /* NetworkInterceptor.swift in Sources */,
+				841466D225E40A1900691AAF /* URLRequestFactory.swift in Sources */,
+				841466CC25E40A1900691AAF /* DomainHttpRequestEvaluator.swift in Sources */,
+				841466D125E40A1900691AAF /* AlternateDomainRequestRedirector.swift in Sources */,
+				841466C925E40A1900691AAF /* NetworkRequestInterceptor.swift in Sources */,
+				841466CD25E40A1900691AAF /* AnyHttpRequestEvaluator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,7 +349,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = NetworkInterceptor/Info.plist;
+				INFOPLIST_FILE = Sources/NetworkInterceptor/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -383,7 +376,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = NetworkInterceptor/Info.plist;
+				INFOPLIST_FILE = Sources/NetworkInterceptor/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
