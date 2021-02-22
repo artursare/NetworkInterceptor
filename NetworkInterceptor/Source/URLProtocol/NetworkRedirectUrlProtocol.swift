@@ -31,9 +31,7 @@ class NetworkRedirectUrlProtocol: URLProtocol {
         guard var redirectedRequest = NetworkInterceptor.shared.redirectedRequest(urlRequest: self.request) else {
             return
         }
-        #if DEBUG
-            NSLog("Redirected Request CURL => \(redirectedRequest.cURL)")
-        #endif
+
         redirectedRequest.addValue("true", forHTTPHeaderField: "Redirected")
         
         let config = URLSessionConfiguration.default

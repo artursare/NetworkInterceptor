@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import URLRequest_cURL
 
 class URLRequestFactory {
 
@@ -17,12 +16,7 @@ class URLRequestFactory {
             urlString = "\(urlString)?\(query)"
         }
         var redirectedRequest = URLRequest(url: URL(string: urlString)!)
-        if let _ = originalUrlRequest.httpBodyStream,
-            let httpBodyStreamData = originalUrlRequest.getHttpBodyStreamData() {
-            redirectedRequest.httpBody = httpBodyStreamData
-        } else {
-            redirectedRequest.httpBody = originalUrlRequest.httpBody
-        }
+        redirectedRequest.httpBody = originalUrlRequest.httpBody
         redirectedRequest.httpMethod = originalUrlRequest.httpMethod!
         redirectedRequest.allHTTPHeaderFields = originalUrlRequest.allHTTPHeaderFields
         redirectedRequest.cachePolicy = originalUrlRequest.cachePolicy
